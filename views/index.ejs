@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Belfiore Alimentos</title>
+  <title>SãodroPão</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -27,6 +27,42 @@
   <!-- Template Main CSS File -->
   <link href="css/style.css" rel="stylesheet">
 
+  <!--Fontes personalizadas SãodroPão-->
+  <style>
+      @font-face {
+        font-family: 'Titania';
+        src: url("fonts/titania/Titania-Regular.ttf") format('truetype');
+        font-weight: normal;
+        font-style: normal;
+      }
+
+      @font-face {
+        font-family: 'Soho';
+        src: url("fonts/SOHO/Soho Std Regular.otf") format('opentype');
+        font-weight: normal;
+        font-style: normal;
+      }
+      
+      #titulo-principal{
+        font-family: 'Titania';
+        font-weight: normal;
+        font-style: normal;
+      }
+      #subtitulo-principal{
+        font-family: 'Soho';
+        font-weight: normal;
+        font-style: normal;
+      }
+      #btn-titulo-principal{
+        font-family: 'Soho';
+        font-weight: normal;
+        font-style: normal;
+      }
+  </style>
+
+  <!--Botão do WhatsApp-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css">
+
   <!-- =======================================================
   * Template Name: Regna - v4.7.0
   * Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
@@ -42,7 +78,7 @@
     <div class="container d-flex justify-content-between align-items-center">
 
       <div id="logo">
-        <a href="/"><img src="img/Belfiore_Logo.png" alt="" width="80px" height="80px"></a>
+        <a href="/"><img src="img/PNG/ga_Logo_RGB_Saodropao-07.png" alt="" width="150px" height="150px"></a>
         <!-- Uncomment below if you prefer to use a text logo -->
         <!--<h1><a href="index.html">Regna</a></h1>-->
       </div>
@@ -62,14 +98,17 @@
   <!-- ======= Hero Section ======= -->
   <section id="hero">
     <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>Bem-vindo à Belfiore Alimentos</h1>
-      <h2>Nós somos a maior produtora de palmitos do sul do Brasil</h2>
-      <a href="#portfolio" class="btn-get-started">Conheça nossos produtos</a>
+      <h1 id="titulo-principal">Bem-vindo à SãodroPão</h1>
+      <h2 id="subtitulo-principal">Nós somos a melhor produtora de pães artesanais de Curitiba-PR</h2>
+      <a id="btn-titulo-principal" href="#portfolio" class="btn-get-started">Conheça nossos Pães</a>
     </div>
   </section><!-- End Hero Section -->
 
   <main id="main">
 
+    <a id="wpp" class="whatsapp-link" href="https://web.whatsapp.com/send?phone=554197701140" target="_blank">
+      <i id="wpp" class="fa fa-whatsapp"></i>
+    </a>
     <!-- ======= About Section ======= -->
     <section id="about">
       <div class="container" data-aos="fade-up">
@@ -101,7 +140,9 @@
 
           </div>
 
-          <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100"></div>
+          <div class="col-lg-6 background order-lg-2 order-1" data-aos="fade-left" data-aos-delay="100">
+            <img src="../img/Aplicacoes_da_marca/SP_4609295-removebg-preview.png" width="650px" height="496.2px">
+          </div>
         </div>
 
       </div>
@@ -111,29 +152,29 @@
     <section id="facts">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">Facts</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Dados Históricos</h3>
+          <p class="section-description">Esses números representam um pouco da história da SãodroPão, não é de hoje que fazer Pães saudáveis, é a nossa especialidade.</p>
         </div>
         <div class="row counters">
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+            <span data-purecounter-start="0" data-purecounter-end="435" data-purecounter-duration="1" class="purecounter"></span>
             <p>Clientes</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="534" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Pontos de venda</p>
+            <span data-purecounter-start="0" data-purecounter-end="11543" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Pães vendidos</p>
+          </div>
+
+          <div class="col-lg-3 col-6 text-center">
+            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
+            <p>Tipos de pães no cardápio</p>
           </div>
 
           <div class="col-lg-3 col-6 text-center">
             <span data-purecounter-start="0" data-purecounter-end="10" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Estados que estamos presentes</p>
-          </div>
-
-          <div class="col-lg-3 col-6 text-center">
-            <span data-purecounter-start="0" data-purecounter-end="42" data-purecounter-duration="1" class="purecounter"></span>
-            <p>Colaboradores</p>
+            <p>Anos no mercado</p>
           </div>
 
         </div>
@@ -149,11 +190,11 @@
       <div class="container">
         <div class="row" data-aos="zoom-in">
           <div class="col-lg-9 text-center text-lg-start">
-            <h3 class="cta-title">Call To Action</h3>
-            <p class="cta-text"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <h3 class="cta-title">Faça a sua reserva</h3>
+            <p class="cta-text"> Ficou interessado em receber em sua casa pães quentinhos e fresquinhos semanalmente? Não perca mais tempo e faça a sua reserva pelo WhatsApp, basta clicar no botão "Reserve já!"</p>
           </div>
           <div class="col-lg-3 cta-btn-container text-center">
-            <a class="cta-btn align-middle" href="#">Call To Action</a>
+            <a class="cta-btn align-middle" href="#">Reserve já!</a>
           </div>
         </div>
 
@@ -164,110 +205,109 @@
     <section id="portfolio" class="portfolio">
       <div class="container" data-aos="fade-up">
         <div class="section-header">
-          <h3 class="section-title">Portfolio</h3>
-          <p class="section-description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque</p>
+          <h3 class="section-title">Cardápio</h3>
+          <p class="section-description">Conheça todos os nossos pães disponíveis semanalmente</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
+              <li data-filter="*" class="filter-active">Todos</li>
+              <li data-filter=".filter-paes">Pães</li>
+              <li data-filter=".filter-focaccias">Focaccias</li>
             </ul>
           </div>
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-paes">
+            <img src="img/20211126_144652.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 1</h4>
-              <p>App</p>
-              <a href="img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Pão 1</h4>
+              <p>Pães</p>
+              <a href="img/20211126_144652.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="paes 1"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-focaccias">
+            <img src="img/20211203_095002.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Focaccia 1</h4>
+              <p>Focaccias</p>
+              <a href="img/20211203_095002.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="focaccias 3"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-focaccias">
+            <img src="img/20211203_095009.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 2</h4>
-              <p>App</p>
-              <a href="img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Focaccia 2</h4>
+              <p>Focaccias</p>
+              <a href="img/20211203_095009.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="paes 2"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-paes">
+            <img src="img/20211203_095026.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 2</h4>
-              <p>Card</p>
-              <a href="img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Pão 2</h4>
+              <p>Pães</p>
+              <a href="img/20211203_095026.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="paes 2"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-focaccias">
+            <img src="img/20211203_095035.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 2</h4>
-              <p>Web</p>
-              <a href="img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Focaccia 3</h4>
+              <p>Focaccias</p>
+              <a href="img/20211203_095035.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="focaccias 2"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-paes">
+            <img src="img/20211203_095044.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Pão 3</h4>
+              <p>Pães</p>
+              <a href="img/20211203_095044.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="paes 3"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-focaccias">
+            <img src="img/20211203_095053.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 1</h4>
-              <p>Card</p>
-              <a href="img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Focaccia 4</h4>
+              <p>Focaccias</p>
+              <a href="img/20211203_095053.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="focaccias 1"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-paes">
+            <img src="img/20211203_095105.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Card 3</h4>
-              <p>Card</p>
-              <a href="img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Pão 4</h4>
+              <p>Pães</p>
+              <a href="img/20211203_095105.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="paes 3"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-focaccias">
+            <img src="img/20211203_095118.jpg" class="img-fluid" alt="">
             <div class="portfolio-info">
-              <h4>Web 3</h4>
-              <p>Web</p>
-              <a href="img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+              <h4>Focaccia 5</h4>
+              <p>Focaccias</p>
+              <a href="img/20211203_095118.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="focaccias 3"><i class="bx bx-plus"></i></a>
+              <!--<a href="produto" class="details-link" title="More Details"><i class="bx bx-link"></i></a>-->
             </div>
           </div>
 
@@ -289,7 +329,8 @@
       </div>
 
       <!-- Uncomment below if you wan to use dynamic maps -->
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57651.21814965484!2d-48.761858443813125!3d-25.431538299518397!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dc80200f732af1%3A0x5c7a4aa3e2f0fd17!2sAntonina%2C%20PR%2C%2083370-000!5e0!3m2!1spt-BR!2sbr!4v1641653240737!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      <!--<iframe src="https://www.google.com.br/maps/place/Rebou%C3%A7as,+Curitiba+-+PR,+82590-300/@-25.446153,-49.2727235,15z/data=!3m1!4b1!4m5!3m4!1s0x94dce4607648a4f1:0xdb38f2c0f0533a4!8m2!3d-25.443438!4d-49.2678749" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>-->
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14411.053581287946!2d-49.263968750000004!3d-25.44617265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4607648a4f1%3A0xdb38f2c0f0533a4!2sRebou%C3%A7as%2C%20Curitiba%20-%20PR%2C%2082590-300!5e0!3m2!1spt-BR!2sbr!4v1653276333488!5m2!1spt-BR!2sbr" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
 
       <div class="container mt-5">
         <div class="row justify-content-center">
@@ -299,25 +340,22 @@
             <div class="info">
               <div>
                 <i class="bi bi-geo-alt"></i>
-                <p>A108 Adam Street<br>New York, NY 535022</p>
+                <p>Bairro: Rebouças <br>Curitiba-PR</p>
               </div>
 
               <div>
                 <i class="bi bi-envelope"></i>
-                <p>info@example.com</p>
+                <p>sandro@saodropao.com.br</p>
               </div>
 
               <div>
                 <i class="bi bi-phone"></i>
-                <p>+1 5589 55488 55s</p>
+                <p>+55 (41) 99770-1140</p>
               </div>
             </div>
 
             <div class="social-links">
-              <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-              <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-              <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-              <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+              <a href="https://www.instagram.com/saodropao/" class="instagram"><i class="bi bi-instagram"></i></a>
             </div>
 
           </div>
@@ -338,9 +376,9 @@
                   <textarea class="form-control" name="message" rows="5" placeholder="Messagem" required></textarea>
                 </div>
                 <div class="my-3">
-                  <div class="loading">Loading</div>
+                  <div class="loading">Carregando</div>
                   <div class="error-message"></div>
-                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                  <div class="sent-message">Sua mensagem foi enviada com sucesso. Grato!</div>
                 </div>
                 <div class="text-center"><button type="submit">Enviar Messagem</button></div>
               </form>
@@ -364,9 +402,10 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong>Belfiore Alimentos</strong>. Todos os direitos reservados.
+        &copy; Copyright <strong>SãodroPão</strong>. Todos os direitos reservados.
       </div>
       <div class="credits">
+        Editado por <a href="https://www.instagram.com/fredyycarneiro/" target="_blank">FredyyCarneiro</a> e Design Gráfico por <a href="https://www.instagram.com/diegodejezus/" target="_blank">Diego de Jesus</a>
         <!--
         All the links in the footer should remain intact.
         You can delete the links only if you purchased the pro version.
