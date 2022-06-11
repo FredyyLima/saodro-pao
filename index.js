@@ -9,29 +9,9 @@ const path = require("path");
 app.use(express.urlencoded());
 
 
-// Rota principal que recebe uma função de callback que recebe dois parametros: 
-// req de requisição
-// res de resposta
-//app.get("/", function (req, res) {
-  //res.send("Hello World"); 
-//});
-
-// Substituição de function por arrow function
-//app.get("/teste-em-pt", (req, res) => {
-  //res.send("Olá Mundo");
-//});
-
-//app.get("/index", (req, res) => {
-    //res.render("index"); // Nome do arquivo, o EJS já busca dentro da pasta views.
-  //});
-
-// Adicionando a const port e uma arow function de callback para mostrar no console que o servidor está rodando.
-
-
 app.use(express.static(path.join(__dirname, "assets")));
 
-// Liga o servidor na porta 3000
-//app.listen(3000);
+
 
 
 app.get("/", (req, res) => {

@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  height: 110px;
+  height: 123px;
   transition: all 0.5s;
   z-index: 997;
   /*background: rgba(52, 59, 64, 0.9);*/
@@ -97,7 +97,6 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Soho", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
-  text-transform: uppercase;
 }
 #header #logo h1 a, #header #logo h1 a:hover {
   color: #f4dcbb;
@@ -105,13 +104,14 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
+  width: 23%;
 }
 #header.header-transparent {
   background: transparent;
 }
 #header.header-scrolled {
   background: #f4dcbb;
-  height: 110px;
+  height: 123px;
   transition: all 0.5s;
 }
 
@@ -154,7 +154,6 @@ h1, h2, h3, h4, h5, h6 {
   transition: 0.3s;
   letter-spacing: 0.4px;
   position: relative;
-  text-transform: uppercase;
 }
 .header-scrolled a{
   color:#374b1e;
@@ -342,7 +341,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url(../img/20211217_161223.jpg);
+  background: url(../img/Fundo_principal.jpeg);
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -379,7 +378,6 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  text-transform: uppercase;
   color: #f4dcbb;
 }
 @media (max-width: 768px) {
@@ -391,7 +389,7 @@ h1, h2, h3, h4, h5, h6 {
   #hero {
     width: 100%;
     height: 100vh;
-    background: url(../img/20211217_161223-vertical.png) center;
+    background: url(../img/Fundo_principal.jpeg) center;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -410,7 +408,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 #hero .btn-get-started {
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -440,7 +437,6 @@ section {
 .section-header .section-title {
   font-size: 32px;
   color: #111;
-  text-transform: uppercase;
   text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
@@ -521,7 +517,7 @@ section {
 }
 
 #about .about-container .background img{
-  border-radius: 50%;
+  border-radius: 22%;
 }
 #about .about-container .content {
   background: #f4dcbb;
@@ -539,36 +535,58 @@ section {
 
 @media only screen and (max-width: 480px){
   #about img{
-    width: 93vw;
-    height: 32vh;
+    width: 84vw;
+    height: 57vh;
+  }
+
+  #header #logo img {
+    width: 48%;
   }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 600px){
   #about img{
-    width: 92vw;
-    height: 38vh;
+    width: 79vw;
+    height: 55vh;
+  }
+
+  #header #logo img {
+    width: 42%;
   }
 }
 
 @media only screen and (min-width: 601px) and (max-width: 690px){
   #about img{
-    width: 80vw;
-    height: 44vh;
+    width: 74vw;
+    height: 52vh;
+  }
+
+  #header #logo img {
+    width: 42%;
+    margin: -14%;
   }
 }
 
 @media only screen and (min-width: 691px) and (max-width: 990px){
   #about img{
-    width: 70vw;
-    height: 47vh;
+    width: 68vw;
+    height: 66vh;
   }
+  #header #logo img {
+    margin: -150px;
+    width: 31%;
+  }
+
 }
 
 @media only screen and (min-width: 991px){
   #about img{
-    width: 50vw;
-    height: 50vh;
+    width: 40vw;
+    height: 67vh;
+  }
+
+  #header #logo img {
+    width: 24%;
   }
 }
 #about .about-container p {
@@ -605,7 +623,6 @@ section {
   font-weight: 500;
   margin-bottom: 5px;
   font-size: 18px;
-  text-transform: uppercase;
 }
 #about .about-container .icon-box .title a {
   color: #374b1e;
@@ -694,7 +711,6 @@ section {
   font-weight: 700;
   font-size: 18px;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 #services .title a {
   color: #111;
@@ -743,7 +759,6 @@ section {
 }
 #call-to-action .cta-btn {
   font-family: "Soho", sans-serif;
-  text-transform: uppercase;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1148,4 +1163,14 @@ color:#fff;
   to{
     transform: scale(0.9,0.9);
   }
+}
+
+.header-transparent #logo #headerFundo{
+  display:none;
+}
+.header-scrolled #logo img{
+  display: none
+}
+.header-scrolled #logo #headerFundo{
+  display: block;
 }
