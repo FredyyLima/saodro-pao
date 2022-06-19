@@ -514,6 +514,8 @@ section {
 #about .about-container .background {
   min-height: 300px;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
 }
 
 #about .about-container .background img{
@@ -581,8 +583,11 @@ section {
 
 @media only screen and (min-width: 991px){
   #about img{
-    width: 40vw;
+    width: 22vw;
     height: 67vh;
+    border-radius: 8%;
+    display: flex;
+    justify-content: center;
   }
 
   #header #logo img {
@@ -633,6 +638,9 @@ section {
   font-size: 14px;
 }
 
+#sobreNos{
+  text-align: center;
+}
 /* Facts Section
 --------------------------------*/
 #facts {
@@ -1084,7 +1092,7 @@ section {
   transition: 0.4s;
 }
 #contact .php-email-form button[type=submit]:hover {
-  background: #1d7a41;
+  background: #cb7a17;
 }
 @-webkit-keyframes animate-loading {
   0% {
@@ -1153,6 +1161,15 @@ section {
 
 #wpp i:hover, a:hover {
 color:#fff;
+}
+
+#efeito{
+  animation: pulse 0.7s infinite alternate;
+  animation-timing-function: ease;
+}
+
+#contact .info i:hover{
+  color: #cb7a17;
 }
 
 @keyframes pulse {
