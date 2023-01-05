@@ -866,7 +866,7 @@ section {
   position: absolute;
   right: 50px;
   font-size: 24px;
-  top: calc(50% - 18px);
+  top: calc(50% - 40px);
   color: #f4dcbb;
   transition: ease-in-out 0.3s;
 }
@@ -1190,4 +1190,14 @@ color:#fff;
 }
 .header-scrolled #logo #headerFundo{
   display: block;
+}
+
+#PortfolioDivImg{
+  width: 440px;
+  height: 500px;
+}
+#DivImg{
+  width: 440px;
+  height: 500px;
+  object-fit: fill;
 }
