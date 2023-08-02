@@ -1,9 +1,3 @@
-/**
-* Template Name: Regna - v4.7.0
-* Template URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -224,5 +218,34 @@
       mirror: false
     })
   });
+
+  const swiper = new Swiper('.swiper', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    effect: "cards",
+    cardsEffect:{
+      slideShadows: false,
+    },
+    grabCursor: true,
+    autoplay: {
+      delay: 20000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    }
+    
+  });
+  swiper.start()
 
 })()
