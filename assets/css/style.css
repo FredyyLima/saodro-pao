@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
 #header #logo img {
   padding: 0;
   margin: 0;
-  width: 23%;
+  width: 20%;
 }
 #header.header-transparent {
   background: transparent;
@@ -436,7 +436,7 @@ section {
 --------------------------------*/
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #374b1e;
   text-align: center;
   font-weight: 700;
   margin-bottom: 5px;
@@ -542,7 +542,7 @@ section {
   }
 
   #header #logo img {
-    width: 48%;
+    width: 44%;
   }
 }
 
@@ -553,7 +553,7 @@ section {
   }
 
   #header #logo img {
-    width: 42%;
+    width: 38%;
   }
 }
 
@@ -564,7 +564,7 @@ section {
   }
 
   #header #logo img {
-    width: 42%;
+    width: 38%;
     margin: -14%;
   }
 }
@@ -576,7 +576,7 @@ section {
   }
   #header #logo img {
     margin: -150px;
-    width: 31%;
+    width: 27%;
   }
 
 }
@@ -591,7 +591,7 @@ section {
   }
 
   #header #logo img {
-    width: 24%;
+    width: 20%;
   }
 }
 #about .about-container p {
@@ -642,21 +642,32 @@ section {
   text-align: center;
 }
 /* Facts Section
+verde: 374b1e
+bege: f4dcbb
 --------------------------------*/
 #facts {
-  background: #f4dcbb;
+  background: #374b1e;
   padding: 80px 0 60px 0;
 }
 #facts .counters span {
   font-size: 48px;
   display: block;
-  color: #374b1e;
+  color: #f4dcbb;
 }
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Soho", sans-serif;
   font-size: 14px;
+  color: #f4dcbb;
+}
+
+#facts .container p {
+  color: #f4dcbb
+}
+
+#facts .container h3 {
+  color: #f4dcbb
 }
 
 @media only screen and (max-width: 480px){
@@ -1580,4 +1591,13 @@ color:#fff;
 
 #close-modal-obrigado:hover{
   background-color: #bd2828;
+}
+
+.depoimentos {
+  font-size: 32px;
+  color: #111;
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #374b1e;
 }
